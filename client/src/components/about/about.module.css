@@ -1,0 +1,14 @@
+.text_box{
+    background: #262c36;
+    border-radius: 8px;
+}
+.box{
+    width: 100%;
+    padding: 1rem;
+    background: #262c36;
+}
+.edit{
+    background: #f3912e;
+    padding: .2rem 1rem;
+    border-radius: 10%;
+}

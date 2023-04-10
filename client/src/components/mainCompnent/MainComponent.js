@@ -1,34 +1,23 @@
 import React from 'react'
 import style from './main.module.css'
 import Image from 'next/image'
+import MyCalendarHeatmap from '../heatmap/MyCalendarHeatmap'
+import ProfileBox from '../profileBox/ProfileBox'
+import About from '../about/About'
+import WebBox from '@/webBox/WebBox'
 
 const MainComponent = () => {
   return (
-    <main className={style.main}>
-      <div className={style.back}>
-        <div className={style.content}>
-            <div className={style.profile}>
-                <div className={style.profile_box}>
-                <Image
-                src="/cipher_logo.png"
-                width={40}
-                height={40}
-                />
-                </div>
-                <div className={style.pencil}>
-                    <Image
-                    src="/pencil.svg"
-                    width={20}
-                    height={20}
-                    />
-                </div>
-            </div>
-            <div className={style.detail}>
-
-            </div>
-        </div>
-      </div>
-    </main>
+    <>
+    <ProfileBox/>
+    <div className={style.content}>
+    <About/>
+    <div className={`${style.underline}`}></div>
+    <MyCalendarHeatmap/>
+    <div className={`${style.underline}`}></div>
+    <WebBox/>
+    </div>
+    </>
   )
 }
 

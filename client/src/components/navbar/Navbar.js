@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Profile from '../Profile.js'
+import Profile from './Profile.js'
 import style from './navbar.module.css'
 
 const Navbar = () => {
