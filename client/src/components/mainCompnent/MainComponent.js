@@ -4,7 +4,7 @@ import Image from 'next/image'
 import MyCalendarHeatmap from '../heatmap/MyCalendarHeatmap'
 import ProfileBox from '../profileBox/ProfileBox'
 import About from '../about/About'
-import WebBox from '@/webBox/WebBox'
+import WebBox from '@/components/webBox/WebBox'
 
 const MainComponent = () => {
   return (
