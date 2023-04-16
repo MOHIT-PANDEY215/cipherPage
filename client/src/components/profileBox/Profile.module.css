@@ -22,3 +22,8 @@
     height: 100%;
     justify-content: flex-start;
 }
+.detail{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import style from './Profile.module.css'
-import MyCalendarHeatmap from '../heatmap/MyCalendarHeatmap'
-
 
 const ProfileBox = () => {
   return (
@@ -25,11 +23,18 @@ const ProfileBox = () => {
                     />
                 </div>
             </div>
-            <div className={style.detail}>
+            <div className={`${style.detail} text-white`}>
+              <div className={style.user}>
+                <h2>Hello</h2>
+                <h1>Mohit Pandey</h1>
+                <h2>pandeymohit215@gmail.com</h2>
+              </div>
+              <div className={style.follower}>
+                <span>0</span> Followers
+              </div>
             </div>
         </div>
       </div>
-        {/* <MyCalendarHeatmap/> */}
     </div>
   )
 }
